@@ -14,6 +14,8 @@ import { LogonComponent } from './logon/logon.component';
 import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.component';
 import { ListarProdutoComponent } from './listar-produto/listar-produto.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
+import { ListarClienteComponent } from './listar-cliente/listar-cliente.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CadastroUsuarioComponent,
     LogonComponent,
     CadastroProdutoComponent,
-    ListarProdutoComponent
+    ListarProdutoComponent,
+    CadastroClienteComponent,
+    ListarClienteComponent
   ],
   imports: [
     BrowserModule,

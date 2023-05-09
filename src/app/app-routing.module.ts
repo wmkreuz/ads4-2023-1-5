@@ -6,6 +6,8 @@ import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.co
 import { LogonComponent } from './logon/logon.component';
 import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.component';
 import { ListarProdutoComponent } from './listar-produto/listar-produto.component';
+import { ListarClienteComponent } from './listar-cliente/listar-cliente.component';
+import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 
 const routes: Routes = [
   { path:'', component:HomeComponent},
@@ -14,7 +16,9 @@ const routes: Routes = [
   { path:'usuario', component:CadastroUsuarioComponent},
   { path:'logon', component:LogonComponent},
   { path:'produto', component:ListarProdutoComponent},
-  { path:'produto/:indice', component:CadastroProdutoComponent}
+  { path:'produto/:indice', component:CadastroProdutoComponent},
+  { path:'cliente', component:ListarClienteComponent},
+  { path:'cliente/:indice', component:CadastroClienteComponent}
 ];
 
 @NgModule({  
