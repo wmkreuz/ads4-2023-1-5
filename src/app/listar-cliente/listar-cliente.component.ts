@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
-import { Cliente } from '../cadastro-cliente/cadastro-cliente.component';
+//import { Cliente } from '../cadastro-cliente/cadastro-cliente.component';
 import { ClienteService } from '../service/cliente.service';
 import { Router } from '@angular/router';
 

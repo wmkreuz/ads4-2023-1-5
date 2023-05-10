@@ -8,11 +8,13 @@ import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.co
 import { ListarProdutoComponent } from './listar-produto/listar-produto.component';
 import { ListarClienteComponent } from './listar-cliente/listar-cliente.component';
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
+import { ListaCidadeComponent } from './lista-cidade/lista-cidade.component';
 
 const routes: Routes = [
   { path:'', component:HomeComponent},
   { path:'home', component:HomeComponent},
-  { path: 'cidade', component: CadastroCidadeComponent },
+  { path: 'cidade', component: ListaCidadeComponent },
+  { path: 'cidade/:indice', component: CadastroCidadeComponent },
   { path:'usuario', component:CadastroUsuarioComponent},
   { path:'logon', component:LogonComponent},
   { path:'produto', component:ListarProdutoComponent},
